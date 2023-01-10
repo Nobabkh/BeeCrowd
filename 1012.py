@@ -1,0 +1,6 @@
+a, b, c = map(float, input().split())
+print("TRIANGULO: "+str(format((0.5*a*c), ".3f")))
+print("CIRCULO: "+str(format(3.14159*pow(c, 2), ".3f")))
+print("TRAPEZIO: "+str(format((((a+b)/2)*c), ".3f")))
+print("QUADRADO: "+str(format((b*b), ".3f")))
+print("RETANGULO: "+str(format((a*b), ".3f")))
