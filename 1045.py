@@ -12,13 +12,15 @@ C = numbers[2]
 
 if(A >= B+C):
     print("NAO FORMA TRIANGULO")
-if(pow(A, 2) == pow(B, 2)+pow(C, 2)):
-    print("TRIANGULO RETANGULO")
-if(pow(A, 2) > pow(B, 2)+pow(C, 2)):
-    print("TRIANGULO OBTUSANGULO")
-if(pow(A, 2) < pow(B, 2)+pow(C, 2)):
-    print("TRIANGULO ACUTANGULO")
-if(A == B and B == C):
-    print("TRIANGULO EQUILATERO")
-if((A == B and A != C) or (B == C and B != A) or (A == C and B != C)):
-    print("TRIANGULO ISOSCELES")
+
+else:
+    if(pow(A, 2) == pow(B, 2)+pow(C, 2)):
+        print("TRIANGULO RETANGULO")
+    if(pow(A, 2) > pow(B, 2)+pow(C, 2)):
+        print("TRIANGULO OBTUSANGULO")
+    if(pow(A, 2) < pow(B, 2)+pow(C, 2)):
+        print("TRIANGULO ACUTANGULO")
+    if(A == B and B == C):
+        print("TRIANGULO EQUILATERO")
+    if((A == B and A != C) or (B == C and B != A) or (A == C and B != C)):
+        print("TRIANGULO ISOSCELES")
